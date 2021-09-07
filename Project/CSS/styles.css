@@ -83,3 +83,21 @@ p {
     font-size: 2rem;
   }
 }
+
+/*Badges*/
+
+.badge {
+  border-radius: 20px;
+  border: 0;
+  color: white;
+  padding: 0.5rem 2rem;
+  font-weight: bold;
+}
+
+.badge--primary {
+  background-color: var(--color-primary);
+}
+
+.badge--secondary {
+  background-color: var(--color-secondary);
+}

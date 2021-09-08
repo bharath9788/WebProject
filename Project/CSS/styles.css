@@ -198,3 +198,26 @@ p {
     font-size: 1.5rem;
   }
 }
+
+/*Input*/
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  margin: 2rem 0;
+  outline: none;
+  font-size: 2rem;
+  padding: 1.5rem 3.5rem;
+  color: var(--color-headings);
+  font-size: 2rem;
+}
+
+::placeholder {
+  color: #cdcbd7;
+}
+
+@media screen and (min-width: 1024px) {
+  input {
+    font-size: 1.5rem;
+  }
+}
